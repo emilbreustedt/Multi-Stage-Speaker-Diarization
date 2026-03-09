@@ -1,0 +1,25 @@
+# Audio files (too large for GitHub)
+audio/
+**/*.wav
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+**/w2v2-robust-large-ckpt/
+**/checkpoints/
+**/vad_output_frames/
+**/whisper_output_frames/
+
+# Claude
+.claude/
