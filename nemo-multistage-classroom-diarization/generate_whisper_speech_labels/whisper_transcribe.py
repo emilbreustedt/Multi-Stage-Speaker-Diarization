@@ -28,8 +28,9 @@ with open(manifest_file, 'r') as f:
         base_name = os.path.splitext(os.path.basename(audio_path))[0]
         npy_path = os.path.join(output_dir, base_name + ".npy")
 
-        # uncomment if you want to skip over existing files
-        if os.path.exists(npy_path):
+        transcript_path = os.path.join(output_dir, base_name + ".json")
+        # Skip if both outputs already exist
+        if os.path.exists(npy_path) and os.path.exists(transcript_path):
             print(f"Skipping {audio_path}, output already exists.")
             continue
         
@@ -64,3 +65,24 @@ with open(manifest_file, 'r') as f:
         # Save the label array
         np.save(npy_path, labels)
         print(f"Saved speech labels to {npy_path}")
+
+        # Save full transcript with word-level timestamps as JSON
+        transcript_out = {
+            "audio_filepath": audio_path,
+            "language": transcript.get("language"),
+            "segments": [
+                {
+                    "start": seg["start"],
+                    "end": seg["end"],
+                    "text": seg["text"].strip(),
+                    "words": [
+                        {"word": w["word"].strip(), "start": w["start"], "end": w["end"]}
+                        for w in seg.get("words", [])
+                    ],
+                }
+                for seg in transcript.get("segments", [])
+            ],
+        }
+        with open(transcript_path, "w", encoding="utf-8") as tf:
+            json.dump(transcript_out, tf, ensure_ascii=False, indent=2)
+        print(f"Saved transcript to {transcript_path}")

@@ -16,6 +16,9 @@
 
 set -e  # stop on any error
 
+# ── Ensure Git unix tools are on PATH (Windows) ──────────────
+export PATH="/usr/bin:/usr/local/bin:$PATH"
+
 # ── Paths ────────────────────────────────────────────────────
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 CKPT="${SCRIPT_DIR}/checkpoints/w2v2-robust-large-ckpt/ckpt.pt"
@@ -67,13 +70,13 @@ echo ""
 echo "[Stage 3] Parameter sweep + diarization..."
 rm -f "${RESULTS_FILE}"
 
-for alpha in $(seq 0.20 0.20 1.0)
+for alpha in $(seq 0.20 0.40 1.0)
 do
-  for offset in $(seq 0.10 0.05 0.80)
+  for offset in $(seq 0.10 0.20 0.70)
   do
-    for onset in $(seq 0.30 0.05 0.90)
+    for onset in $(seq 0.30 0.20 0.90)
     do
-      if (( $(echo "$onset > $offset" | bc -l) )); then
+      if python -c "exit(0 if float('$onset') > float('$offset') else 1)"; then
         echo "--------------------------------------------------"
         echo "alpha=${alpha}, onset=${onset}, offset=${offset}"
         echo "--------------------------------------------------"
@@ -92,7 +95,7 @@ do
             --out_dir="${SCRIPT_DIR}/vad_outs.json"
 
         # Run NeMo diarizer
-        python3 "${SCRIPT_DIR}/NeMo/examples/speaker_tasks/diarization/clustering_diarizer/offline_diar_infer.py" \
+        python "${SCRIPT_DIR}/NeMo/examples/speaker_tasks/diarization/clustering_diarizer/offline_diar_infer.py" \
             diarizer.manifest_filepath="${MANIFEST_FILE}" \
             diarizer.out_dir="${DIAR_OUTPUT_DIR}" \
             diarizer.vad.model_path=null \
@@ -100,6 +103,7 @@ do
             diarizer.speaker_embeddings.parameters.save_embeddings=False \
             diarizer.speaker_embeddings.model_path='titanet_large' \
             diarizer.clustering.parameters.oracle_num_speakers=True \
+            num_workers=0 \
             2>&1 | tee "${DIARIZER_LOG}"
 
         FA_LINE=$(grep '| FA' "${DIARIZER_LOG}" || true)
