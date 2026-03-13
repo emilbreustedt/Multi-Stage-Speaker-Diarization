@@ -2,3 +2,8 @@
 /vad_output_frames
 /whisper_output_frames
 checkpoints/
+
+# Generated runtime outputs
+vad_outs.json
+diarizer_temp.log
+diarization_output/speaker_outputs/

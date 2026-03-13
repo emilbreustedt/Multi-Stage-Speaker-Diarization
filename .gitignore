@@ -15,6 +15,10 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# Generated intermediate outputs (can be re-run, but not synced)
+nemo-multistage-classroom-diarization/vad_outs.json
+nemo-multistage-classroom-diarization/diarization_output/speaker_outputs/
+
 # Model checkpoints
 **/w2v2-robust-large-ckpt/
 **/checkpoints/
