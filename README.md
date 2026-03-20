@@ -10,6 +10,8 @@ The audio data consists of ~141 stereo WAV sessions (lectures and small-group tu
 
 ### 1. NeMo Multi-Stage (`nemo-multistage-classroom-diarization/`)
 
+Based on the paper [Multi-Stage Speaker Diarization for Noisy Classrooms](literature/2505.10879v2.pdf) (Khan et al., EDM 2025). The `nemo-multistage-classroom-diarization/` folder is an adapted version of their [original repository](https://github.com/EduNLP/edm25-nemo-classroom-diarization), extended to run on Windows with our HIEB classroom dataset.
+
 Combines a fine-tuned **wav2vec2-robust-large** VAD model with **Whisper** speech labels, then runs **NeMo TitaNet-Large** speaker clustering.
 
 **Stages:**
