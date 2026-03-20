@@ -7,3 +7,6 @@ checkpoints/
 vad_outs.json
 diarizer_temp.log
 diarization_output/speaker_outputs/
+
+# Manifests contain local machine paths — regenerate with prepare_data.ipynb
+manifests/my_data.json

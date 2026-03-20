@@ -2,7 +2,7 @@ def parse_line(line):
     parts = line.strip().split('|')
     hyperparams = parts[0].strip().split(',')
     metrics = parts[1:]
-    
+
     alpha = float(hyperparams[0].split('=')[1])
     onset = float(hyperparams[1].split('=')[1])
     offset = float(hyperparams[2].split('=')[1])
@@ -21,44 +21,18 @@ def find_best(lines, alpha_condition):
                 best = parsed
     return best
 
-print("For 2s:")
-with open('DER_results_2s.txt', 'r') as f:
+with open('DER_results_my_data.txt', 'r') as f:
     lines = f.readlines()
 
-# Set condition for alpha == 1
 best_eq_1 = find_best(lines, lambda a: a == 1)
-
-# Set condition for alpha != 1
 best_neq_1 = find_best(lines, lambda a: a != 1)
+best_overall = find_best(lines, lambda a: True)
 
-if best_eq_1:
-    print("Best for alpha == 1:\n", best_eq_1['line'])
-else:
-    print("No entries with alpha == 1")
+print("Best overall:")
+print(" ", best_overall['line'] if best_overall else "None")
 
-if best_neq_1:
-    print("Best for alpha != 1:\n", best_neq_1['line'])
-else:
-    print("No entries with alpha != 1")
+print("\nBest with alpha == 1 (Whisper-only VAD):")
+print(" ", best_eq_1['line'] if best_eq_1 else "None")
 
-print("\n\nFor as")
-
-with open('DER_results_all_speaker.txt', 'r') as f:
-    lines = f.readlines()
-
-# Set condition for alpha == 1
-best_eq_1 = find_best(lines, lambda a: a == 1)
-
-# Set condition for alpha != 1
-best_neq_1 = find_best(lines, lambda a: a != 1)
-
-if best_eq_1:
-    print("Best for alpha == 1:\n", best_eq_1['line'])
-else:
-    print("No entries with alpha == 1")
-
-if best_neq_1:
-    print("Best for alpha != 1:\n", best_neq_1['line'])
-else:
-    print("No entries with alpha != 1")
-
+print("\nBest with alpha != 1 (combined VAD):")
+print(" ", best_neq_1['line'] if best_neq_1 else "None")

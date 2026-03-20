@@ -1,0 +1,1466 @@
+[
+  {
+    "start": 11.26,
+    "end": 16.28,
+    "duration": 5.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 16.28,
+    "end": 19.17,
+    "duration": 2.89,
+    "final_role": "Student"
+  },
+  {
+    "start": 19.17,
+    "end": 30.23,
+    "duration": 11.06,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 30.23,
+    "end": 31.21,
+    "duration": 0.98,
+    "final_role": "Student"
+  },
+  {
+    "start": 31.21,
+    "end": 32.22,
+    "duration": 1.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 32.22,
+    "end": 36.13,
+    "duration": 3.91,
+    "final_role": "Student"
+  },
+  {
+    "start": 36.13,
+    "end": 40.21,
+    "duration": 4.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 40.21,
+    "end": 50.17,
+    "duration": 9.96,
+    "final_role": "Student"
+  },
+  {
+    "start": 50.17,
+    "end": 52.29,
+    "duration": 2.12,
+    "final_role": "Student"
+  },
+  {
+    "start": 52.29,
+    "end": 61.02,
+    "duration": 8.73,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 61.02,
+    "end": 74.11,
+    "duration": 13.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 74.11,
+    "end": 76.25,
+    "duration": 2.14,
+    "final_role": "Student"
+  },
+  {
+    "start": 76.25,
+    "end": 83.24,
+    "duration": 6.99,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 83.24,
+    "end": 84.05,
+    "duration": 0.81,
+    "final_role": "Student"
+  },
+  {
+    "start": 84.05,
+    "end": 92.25,
+    "duration": 8.2,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 92.25,
+    "end": 98.24,
+    "duration": 5.99,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 98.24,
+    "end": 106.24,
+    "duration": 8.0,
+    "final_role": "Student"
+  },
+  {
+    "start": 106.24,
+    "end": 108.25,
+    "duration": 2.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 108.25,
+    "end": 114.27,
+    "duration": 6.02,
+    "final_role": "Student"
+  },
+  {
+    "start": 114.27,
+    "end": 116.28,
+    "duration": 2.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 116.28,
+    "end": 118.16,
+    "duration": 1.88,
+    "final_role": "Student"
+  },
+  {
+    "start": 118.16,
+    "end": 126.27,
+    "duration": 8.11,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 126.27,
+    "end": 127.05,
+    "duration": 0.78,
+    "final_role": "Student"
+  },
+  {
+    "start": 127.05,
+    "end": 130.21,
+    "duration": 3.16,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 130.21,
+    "end": 131.12,
+    "duration": 0.91,
+    "final_role": "Student"
+  },
+  {
+    "start": 131.12,
+    "end": 132.03,
+    "duration": 0.91,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 132.03,
+    "end": 136.13,
+    "duration": 4.1,
+    "final_role": "Student"
+  },
+  {
+    "start": 136.13,
+    "end": 137.21,
+    "duration": 1.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 137.21,
+    "end": 138.14,
+    "duration": 0.93,
+    "final_role": "Student"
+  },
+  {
+    "start": 138.14,
+    "end": 148.16,
+    "duration": 10.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 148.16,
+    "end": 154.25,
+    "duration": 6.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 154.25,
+    "end": 157.11,
+    "duration": 2.86,
+    "final_role": "Student"
+  },
+  {
+    "start": 157.11,
+    "end": 162.08,
+    "duration": 4.97,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 162.08,
+    "end": 163.26,
+    "duration": 1.18,
+    "final_role": "Student"
+  },
+  {
+    "start": 163.26,
+    "end": 164.07,
+    "duration": 0.81,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 164.07,
+    "end": 165.2,
+    "duration": 1.13,
+    "final_role": "Student"
+  },
+  {
+    "start": 165.2,
+    "end": 180.24,
+    "duration": 15.04,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 180.24,
+    "end": 182.17,
+    "duration": 1.93,
+    "final_role": "Student"
+  },
+  {
+    "start": 182.17,
+    "end": 185.29,
+    "duration": 3.12,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 185.29,
+    "end": 188.1,
+    "duration": 2.81,
+    "final_role": "Student"
+  },
+  {
+    "start": 188.1,
+    "end": 190.16,
+    "duration": 2.06,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 190.16,
+    "end": 195.21,
+    "duration": 5.05,
+    "final_role": "Student"
+  },
+  {
+    "start": 195.21,
+    "end": 197.29,
+    "duration": 2.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 197.29,
+    "end": 199.01,
+    "duration": 1.72,
+    "final_role": "Student"
+  },
+  {
+    "start": 199.01,
+    "end": 202.16,
+    "duration": 3.15,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 202.16,
+    "end": 204.04,
+    "duration": 1.88,
+    "final_role": "Student"
+  },
+  {
+    "start": 204.04,
+    "end": 210.01,
+    "duration": 5.97,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 210.01,
+    "end": 212.12,
+    "duration": 2.11,
+    "final_role": "Student"
+  },
+  {
+    "start": 212.12,
+    "end": 216.14,
+    "duration": 4.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 216.14,
+    "end": 217.23,
+    "duration": 1.09,
+    "final_role": "Student"
+  },
+  {
+    "start": 217.23,
+    "end": 228.08,
+    "duration": 10.85,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 228.08,
+    "end": 231.1,
+    "duration": 3.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 231.1,
+    "end": 239.06,
+    "duration": 7.96,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 239.06,
+    "end": 241.06,
+    "duration": 2.0,
+    "final_role": "Student"
+  },
+  {
+    "start": 241.06,
+    "end": 243.09,
+    "duration": 2.03,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 243.09,
+    "end": 249.01,
+    "duration": 5.92,
+    "final_role": "Student"
+  },
+  {
+    "start": 249.01,
+    "end": 253.04,
+    "duration": 4.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 253.04,
+    "end": 254.29,
+    "duration": 1.25,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 254.29,
+    "end": 256.0,
+    "duration": 1.71,
+    "final_role": "Student"
+  },
+  {
+    "start": 256.0,
+    "end": 257.22,
+    "duration": 1.22,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 257.22,
+    "end": 260.18,
+    "duration": 2.96,
+    "final_role": "Student"
+  },
+  {
+    "start": 260.18,
+    "end": 261.17,
+    "duration": 0.99,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 261.17,
+    "end": 267.12,
+    "duration": 5.95,
+    "final_role": "Student"
+  },
+  {
+    "start": 267.12,
+    "end": 271.15,
+    "duration": 4.03,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 271.15,
+    "end": 272.16,
+    "duration": 1.01,
+    "final_role": "Student"
+  },
+  {
+    "start": 272.16,
+    "end": 272.17,
+    "duration": 0.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 272.12,
+    "end": 277.23,
+    "duration": 5.11,
+    "final_role": "Student"
+  },
+  {
+    "start": 277.23,
+    "end": 280.08,
+    "duration": 2.85,
+    "final_role": "Student"
+  },
+  {
+    "start": 280.08,
+    "end": 281.22,
+    "duration": 1.14,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 281.22,
+    "end": 285.28,
+    "duration": 4.06,
+    "final_role": "Student"
+  },
+  {
+    "start": 285.28,
+    "end": 286.08,
+    "duration": 0.8,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 286.08,
+    "end": 288.19,
+    "duration": 2.11,
+    "final_role": "Student"
+  },
+  {
+    "start": 288.19,
+    "end": 290.17,
+    "duration": 1.98,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 290.17,
+    "end": 299.01,
+    "duration": 8.84,
+    "final_role": "Student"
+  },
+  {
+    "start": 299.01,
+    "end": 301.01,
+    "duration": 2.0,
+    "final_role": "Student"
+  },
+  {
+    "start": 301.01,
+    "end": 309.19,
+    "duration": 8.18,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 309.19,
+    "end": 311.09,
+    "duration": 1.9,
+    "final_role": "Student"
+  },
+  {
+    "start": 311.09,
+    "end": 313.28,
+    "duration": 2.19,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 313.28,
+    "end": 315.06,
+    "duration": 1.78,
+    "final_role": "Student"
+  },
+  {
+    "start": 315.06,
+    "end": 318.24,
+    "duration": 3.18,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 318.24,
+    "end": 320.05,
+    "duration": 1.81,
+    "final_role": "Student"
+  },
+  {
+    "start": 320.05,
+    "end": 329.08,
+    "duration": 9.03,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 329.08,
+    "end": 337.0,
+    "duration": 7.92,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 337.0,
+    "end": 338.03,
+    "duration": 1.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 338.03,
+    "end": 341.29,
+    "duration": 3.26,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 341.29,
+    "end": 347.05,
+    "duration": 5.76,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 347.05,
+    "end": 353.03,
+    "duration": 5.98,
+    "final_role": "Student"
+  },
+  {
+    "start": 353.03,
+    "end": 354.1,
+    "duration": 1.07,
+    "final_role": "Student"
+  },
+  {
+    "start": 354.1,
+    "end": 358.02,
+    "duration": 3.92,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 358.02,
+    "end": 358.29,
+    "duration": 0.27,
+    "final_role": "Student"
+  },
+  {
+    "start": 358.29,
+    "end": 362.01,
+    "duration": 3.72,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 362.01,
+    "end": 372.04,
+    "duration": 10.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 372.04,
+    "end": 375.03,
+    "duration": 2.99,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 375.03,
+    "end": 378.07,
+    "duration": 3.04,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 378.07,
+    "end": 379.24,
+    "duration": 1.17,
+    "final_role": "Student"
+  },
+  {
+    "start": 379.24,
+    "end": 386.16,
+    "duration": 6.92,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 386.16,
+    "end": 390.16,
+    "duration": 4.0,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 390.16,
+    "end": 396.19,
+    "duration": 6.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 396.19,
+    "end": 404.02,
+    "duration": 7.83,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 404.02,
+    "end": 409.19,
+    "duration": 5.17,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 409.19,
+    "end": 410.22,
+    "duration": 1.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 410.22,
+    "end": 416.08,
+    "duration": 5.86,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 416.08,
+    "end": 416.18,
+    "duration": 0.1,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 416.18,
+    "end": 417.05,
+    "duration": 0.87,
+    "final_role": "Student"
+  },
+  {
+    "start": 417.05,
+    "end": 435.24,
+    "duration": 18.19,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 435.24,
+    "end": 437.21,
+    "duration": 1.97,
+    "final_role": "Student"
+  },
+  {
+    "start": 437.21,
+    "end": 444.22,
+    "duration": 7.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 444.22,
+    "end": 445.18,
+    "duration": 0.96,
+    "final_role": "Student"
+  },
+  {
+    "start": 445.18,
+    "end": 477.08,
+    "duration": 31.9,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 477.08,
+    "end": 492.01,
+    "duration": 14.93,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 492.01,
+    "end": 492.23,
+    "duration": 0.22,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 492.23,
+    "end": 493.2,
+    "duration": 0.97,
+    "final_role": "Student"
+  },
+  {
+    "start": 493.2,
+    "end": 498.25,
+    "duration": 5.05,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 498.25,
+    "end": 501.12,
+    "duration": 2.87,
+    "final_role": "Student"
+  },
+  {
+    "start": 501.12,
+    "end": 503.27,
+    "duration": 2.15,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 503.27,
+    "end": 504.03,
+    "duration": 0.76,
+    "final_role": "Student"
+  },
+  {
+    "start": 504.03,
+    "end": 506.11,
+    "duration": 2.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 506.11,
+    "end": 507.14,
+    "duration": 1.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 507.14,
+    "end": 510.05,
+    "duration": 2.91,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 510.05,
+    "end": 517.11,
+    "duration": 7.06,
+    "final_role": "Student"
+  },
+  {
+    "start": 517.11,
+    "end": 518.0,
+    "duration": 0.89,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 518.0,
+    "end": 518.16,
+    "duration": 0.16,
+    "final_role": "Student"
+  },
+  {
+    "start": 518.16,
+    "end": 520.25,
+    "duration": 2.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 520.25,
+    "end": 523.27,
+    "duration": 3.02,
+    "final_role": "Student"
+  },
+  {
+    "start": 523.27,
+    "end": 531.11,
+    "duration": 7.84,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 531.11,
+    "end": 534.2,
+    "duration": 3.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 534.2,
+    "end": 538.05,
+    "duration": 3.85,
+    "final_role": "Student"
+  },
+  {
+    "start": 538.05,
+    "end": 538.14,
+    "duration": 0.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 538.14,
+    "end": 552.0,
+    "duration": 13.86,
+    "final_role": "Student"
+  },
+  {
+    "start": 552.0,
+    "end": 559.22,
+    "duration": 7.22,
+    "final_role": "Student"
+  },
+  {
+    "start": 559.22,
+    "end": 560.23,
+    "duration": 1.01,
+    "final_role": "Student"
+  },
+  {
+    "start": 560.23,
+    "end": 562.08,
+    "duration": 1.85,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 562.08,
+    "end": 564.06,
+    "duration": 1.98,
+    "final_role": "Student"
+  },
+  {
+    "start": 564.06,
+    "end": 569.03,
+    "duration": 4.97,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 569.03,
+    "end": 570.03,
+    "duration": 1.0,
+    "final_role": "Student"
+  },
+  {
+    "start": 570.03,
+    "end": 571.25,
+    "duration": 1.22,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 571.25,
+    "end": 580.2,
+    "duration": 8.95,
+    "final_role": "Student"
+  },
+  {
+    "start": 580.2,
+    "end": 584.05,
+    "duration": 3.85,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 584.05,
+    "end": 586.26,
+    "duration": 2.21,
+    "final_role": "Student"
+  },
+  {
+    "start": 586.26,
+    "end": 593.28,
+    "duration": 7.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 593.28,
+    "end": 593.29,
+    "duration": 0.01,
+    "final_role": "Student"
+  },
+  {
+    "start": 593.28,
+    "end": 596.15,
+    "duration": 2.87,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 596.15,
+    "end": 599.23,
+    "duration": 3.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 599.23,
+    "end": 599.26,
+    "duration": 0.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 599.26,
+    "end": 604.04,
+    "duration": 4.78,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 605.07,
+    "end": 611.18,
+    "duration": 6.11,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 611.18,
+    "end": 612.08,
+    "duration": 0.9,
+    "final_role": "Student"
+  },
+  {
+    "start": 612.08,
+    "end": 627.0,
+    "duration": 14.92,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 627.0,
+    "end": 668.15,
+    "duration": 41.15,
+    "final_role": "Student"
+  },
+  {
+    "start": 668.15,
+    "end": 674.17,
+    "duration": 6.02,
+    "final_role": "Student"
+  },
+  {
+    "start": 674.17,
+    "end": 681.24,
+    "duration": 7.07,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 681.24,
+    "end": 688.11,
+    "duration": 6.87,
+    "final_role": "Student"
+  },
+  {
+    "start": 688.11,
+    "end": 694.08,
+    "duration": 5.97,
+    "final_role": "Student"
+  },
+  {
+    "start": 694.08,
+    "end": 695.28,
+    "duration": 1.2,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 695.28,
+    "end": 697.14,
+    "duration": 1.86,
+    "final_role": "Student"
+  },
+  {
+    "start": 697.14,
+    "end": 700.08,
+    "duration": 2.94,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 700.08,
+    "end": 702.15,
+    "duration": 2.07,
+    "final_role": "Student"
+  },
+  {
+    "start": 702.15,
+    "end": 713.24,
+    "duration": 11.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 713.24,
+    "end": 715.29,
+    "duration": 2.05,
+    "final_role": "Student"
+  },
+  {
+    "start": 715.29,
+    "end": 726.05,
+    "duration": 10.76,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 726.05,
+    "end": 729.27,
+    "duration": 3.22,
+    "final_role": "Student"
+  },
+  {
+    "start": 729.27,
+    "end": 744.22,
+    "duration": 14.95,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 744.22,
+    "end": 746.25,
+    "duration": 2.03,
+    "final_role": "Student"
+  },
+  {
+    "start": 746.25,
+    "end": 750.14,
+    "duration": 3.89,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 750.14,
+    "end": 752.25,
+    "duration": 2.11,
+    "final_role": "Student"
+  },
+  {
+    "start": 752.25,
+    "end": 756.03,
+    "duration": 3.78,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 756.03,
+    "end": 756.29,
+    "duration": 0.26,
+    "final_role": "Student"
+  },
+  {
+    "start": 756.29,
+    "end": 761.0,
+    "duration": 4.71,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 761.0,
+    "end": 762.09,
+    "duration": 1.09,
+    "final_role": "Student"
+  },
+  {
+    "start": 762.09,
+    "end": 764.23,
+    "duration": 2.14,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 764.23,
+    "end": 765.24,
+    "duration": 1.01,
+    "final_role": "Student"
+  },
+  {
+    "start": 765.24,
+    "end": 769.17,
+    "duration": 3.93,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 769.17,
+    "end": 770.09,
+    "duration": 0.92,
+    "final_role": "Student"
+  },
+  {
+    "start": 770.09,
+    "end": 771.28,
+    "duration": 1.19,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 771.28,
+    "end": 773.05,
+    "duration": 1.77,
+    "final_role": "Student"
+  },
+  {
+    "start": 773.05,
+    "end": 774.24,
+    "duration": 1.19,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 774.24,
+    "end": 784.16,
+    "duration": 9.92,
+    "final_role": "Student"
+  },
+  {
+    "start": 784.16,
+    "end": 789.07,
+    "duration": 4.91,
+    "final_role": "Student"
+  },
+  {
+    "start": 789.07,
+    "end": 796.13,
+    "duration": 7.06,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 796.13,
+    "end": 801.01,
+    "duration": 4.88,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 801.01,
+    "end": 802.05,
+    "duration": 1.04,
+    "final_role": "Student"
+  },
+  {
+    "start": 802.05,
+    "end": 804.13,
+    "duration": 2.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 804.13,
+    "end": 805.17,
+    "duration": 1.04,
+    "final_role": "Student"
+  },
+  {
+    "start": 805.17,
+    "end": 813.04,
+    "duration": 7.87,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 813.04,
+    "end": 814.23,
+    "duration": 1.19,
+    "final_role": "Student"
+  },
+  {
+    "start": 814.23,
+    "end": 820.19,
+    "duration": 5.96,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 820.19,
+    "end": 821.03,
+    "duration": 0.84,
+    "final_role": "Student"
+  },
+  {
+    "start": 821.03,
+    "end": 823.22,
+    "duration": 2.19,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 823.22,
+    "end": 824.06,
+    "duration": 0.84,
+    "final_role": "Student"
+  },
+  {
+    "start": 824.06,
+    "end": 841.1,
+    "duration": 17.04,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 841.1,
+    "end": 845.0,
+    "duration": 3.9,
+    "final_role": "Student"
+  },
+  {
+    "start": 845.0,
+    "end": 846.06,
+    "duration": 1.06,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 846.06,
+    "end": 846.24,
+    "duration": 0.18,
+    "final_role": "Student"
+  },
+  {
+    "start": 846.24,
+    "end": 852.07,
+    "duration": 5.83,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 852.07,
+    "end": 854.14,
+    "duration": 2.07,
+    "final_role": "Student"
+  },
+  {
+    "start": 854.14,
+    "end": 855.04,
+    "duration": 0.9,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 855.04,
+    "end": 855.18,
+    "duration": 0.14,
+    "final_role": "Student"
+  },
+  {
+    "start": 855.18,
+    "end": 862.04,
+    "duration": 6.86,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 862.04,
+    "end": 866.01,
+    "duration": 3.97,
+    "final_role": "Student"
+  },
+  {
+    "start": 866.01,
+    "end": 867.0,
+    "duration": 0.99,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 867.0,
+    "end": 867.15,
+    "duration": 0.15,
+    "final_role": "Student"
+  },
+  {
+    "start": 867.15,
+    "end": 868.01,
+    "duration": 0.86,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 868.01,
+    "end": 869.02,
+    "duration": 1.01,
+    "final_role": "Student"
+  },
+  {
+    "start": 869.02,
+    "end": 871.28,
+    "duration": 2.26,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 871.28,
+    "end": 874.15,
+    "duration": 2.87,
+    "final_role": "Student"
+  },
+  {
+    "start": 874.15,
+    "end": 876.28,
+    "duration": 2.13,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 876.28,
+    "end": 878.2,
+    "duration": 1.92,
+    "final_role": "Student"
+  },
+  {
+    "start": 878.2,
+    "end": 880.02,
+    "duration": 1.82,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 880.02,
+    "end": 881.1,
+    "duration": 1.08,
+    "final_role": "Student"
+  },
+  {
+    "start": 881.1,
+    "end": 883.08,
+    "duration": 1.98,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 883.08,
+    "end": 886.16,
+    "duration": 3.08,
+    "final_role": "Student"
+  },
+  {
+    "start": 886.16,
+    "end": 888.04,
+    "duration": 1.88,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 888.04,
+    "end": 895.22,
+    "duration": 7.18,
+    "final_role": "Student"
+  },
+  {
+    "start": 895.22,
+    "end": 902.23,
+    "duration": 7.01,
+    "final_role": "Student"
+  },
+  {
+    "start": 902.23,
+    "end": 908.08,
+    "duration": 5.85,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 908.08,
+    "end": 913.1,
+    "duration": 5.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 913.1,
+    "end": 914.04,
+    "duration": 0.94,
+    "final_role": "Student"
+  },
+  {
+    "start": 914.04,
+    "end": 915.0,
+    "duration": 0.96,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 915.0,
+    "end": 915.16,
+    "duration": 0.16,
+    "final_role": "Student"
+  },
+  {
+    "start": 915.16,
+    "end": 924.25,
+    "duration": 9.09,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 924.25,
+    "end": 926.06,
+    "duration": 1.81,
+    "final_role": "Student"
+  },
+  {
+    "start": 926.06,
+    "end": 931.14,
+    "duration": 5.08,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 931.14,
+    "end": 933.02,
+    "duration": 1.88,
+    "final_role": "Student"
+  },
+  {
+    "start": 933.02,
+    "end": 938.04,
+    "duration": 5.02,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 938.04,
+    "end": 939.06,
+    "duration": 1.02,
+    "final_role": "Student"
+  },
+  {
+    "start": 939.06,
+    "end": 939.26,
+    "duration": 0.2,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 939.26,
+    "end": 942.22,
+    "duration": 2.96,
+    "final_role": "Student"
+  },
+  {
+    "start": 942.22,
+    "end": 945.2,
+    "duration": 2.98,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 945.2,
+    "end": 947.09,
+    "duration": 1.89,
+    "final_role": "Student"
+  },
+  {
+    "start": 947.09,
+    "end": 952.27,
+    "duration": 5.18,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 952.27,
+    "end": 953.25,
+    "duration": 0.98,
+    "final_role": "Student"
+  },
+  {
+    "start": 953.25,
+    "end": 955.26,
+    "duration": 2.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 955.26,
+    "end": 959.01,
+    "duration": 3.75,
+    "final_role": "Student"
+  },
+  {
+    "start": 959.01,
+    "end": 959.02,
+    "duration": 0.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 959.01,
+    "end": 961.22,
+    "duration": 2.21,
+    "final_role": "Student"
+  },
+  {
+    "start": 961.22,
+    "end": 962.2,
+    "duration": 0.98,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 962.2,
+    "end": 964.18,
+    "duration": 1.98,
+    "final_role": "Student"
+  },
+  {
+    "start": 964.18,
+    "end": 965.24,
+    "duration": 1.06,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 965.24,
+    "end": 966.19,
+    "duration": 0.95,
+    "final_role": "Student"
+  },
+  {
+    "start": 966.19,
+    "end": 972.2,
+    "duration": 6.01,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 972.2,
+    "end": 975.13,
+    "duration": 2.93,
+    "final_role": "Student"
+  },
+  {
+    "start": 975.13,
+    "end": 976.04,
+    "duration": 0.91,
+    "final_role": "Teacher"
+  },
+  {
+    "start": 976.04,
+    "end": 981.0,
+    "duration": 4.96,
+    "final_role": "Student"
+  },
+  {
+    "start": 981.0,
+    "end": 983.052,
+    "duration": 2.052,
+    "final_role": "Teacher"
+  }
+]

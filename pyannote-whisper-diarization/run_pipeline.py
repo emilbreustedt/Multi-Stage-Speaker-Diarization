@@ -1,3 +1,6 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -41,7 +44,7 @@ class Config:
 
     # Diarization
     DIARIZATION_MODEL = "pyannote/speaker-diarization-3.1"
-    HF_TOKEN = "YOUR_HF_TOKEN"
+    HF_TOKEN = open(Path(__file__).parent / "hf_token.txt").read().strip()
 
     # Paths
     AUDIO_DIR = r"D:\audio"
@@ -75,7 +78,7 @@ class ClassroomProcessor:
 
         self.diarization_pipeline = Pipeline.from_pretrained(
             self.config.DIARIZATION_MODEL,
-            use_auth_token=self.config.HF_TOKEN
+            token=self.config.HF_TOKEN
         )
 
         if torch.cuda.is_available():
@@ -95,9 +98,19 @@ class ClassroomProcessor:
 
         print(f"\nProcessing: {audio_path}")
 
-        # Step 1: Perform diarization
+        # Step 1: Perform diarization (pass stereo as mono via waveform dict)
         print("  → Running speaker diarization...")
-        diarization = self.diarization_pipeline(audio_path)
+        import torchaudio
+        waveform, sample_rate = torchaudio.load(audio_path)
+        if waveform.shape[0] > 1:  # stereo -> mono
+            waveform = waveform.mean(dim=0, keepdim=True)
+        diarization_output = self.diarization_pipeline(
+            {"waveform": waveform, "sample_rate": sample_rate},
+            min_speakers=2,
+            max_speakers=10,
+        )
+        # pyannote 4.x returns DiarizeOutput — extract the Annotation
+        diarization = diarization_output.speaker_diarization
 
         # Step 2: Get Whisper transcription with timestamps
         print("  → Running Whisper transcription...")
@@ -159,7 +172,7 @@ class ClassroomProcessor:
         results_dir.mkdir(exist_ok=True)
         stem = Path(audio_path).stem
         debug_path = results_dir / f"{stem}_debug.json"
-        with open(debug_path, "w") as f:
+        with open(debug_path, "w", encoding='utf-8') as f:
             json.dump(aligned_segments, f, indent=4)
 
         return aligned_segments

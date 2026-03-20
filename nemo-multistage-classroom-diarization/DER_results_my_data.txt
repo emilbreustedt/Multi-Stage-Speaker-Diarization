@@ -16,3 +16,15 @@ alpha=0.60, onset=0.50, offset=0.30,     | FA: 0.0189 | MISS: 0.4305 | CER: 0.10
 alpha=0.60, onset=0.70, offset=0.30,     | FA: 0.0147 | MISS: 0.5102 | CER: 0.0818 | DER: 0.6067 | Spk. Count Acc. 0.7730
 alpha=0.60, onset=0.90, offset=0.30,     | FA: 0.0094 | MISS: 0.6239 | CER: 0.0599 | DER: 0.6932 | Spk. Count Acc. 0.7730
 alpha=0.60, onset=0.70, offset=0.50,     | FA: 0.0114 | MISS: 0.5996 | CER: 0.0565 | DER: 0.6675 | Spk. Count Acc. 0.7730
+alpha=0.60, onset=0.90, offset=0.50,     | FA: 0.0060 | MISS: 0.7314 | CER: 0.0409 | DER: 0.7784 | Spk. Count Acc. 0.7730
+alpha=0.60, onset=0.90, offset=0.70,     | FA: 0.0052 | MISS: 0.7794 | CER: 0.0361 | DER: 0.8206 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.30, offset=0.10,     | FA: 0.0431 | MISS: 0.1745 | CER: 0.2492 | DER: 0.4667 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.50, offset=0.10,     | FA: 0.0405 | MISS: 0.2041 | CER: 0.2346 | DER: 0.4791 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.50, offset=0.30,     | FA: 0.0284 | MISS: 0.3612 | CER: 0.1605 | DER: 0.5501 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.70, offset=0.10,     | FA: 0.0356 | MISS: 0.2345 | CER: 0.2236 | DER: 0.4938 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.70, offset=0.30,     | FA: 0.0221 | MISS: 0.4320 | CER: 0.1288 | DER: 0.5828 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.70, offset=0.50,     | FA: 0.0149 | MISS: 0.5605 | CER: 0.0848 | DER: 0.6601 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.90, offset=0.10,     | FA: 0.0263 | MISS: 0.3223 | CER: 0.1927 | DER: 0.5413 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.90, offset=0.30,     | FA: 0.0133 | MISS: 0.5733 | CER: 0.0896 | DER: 0.6762 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.90, offset=0.50,     | FA: 0.0076 | MISS: 0.7108 | CER: 0.0556 | DER: 0.7740 | Spk. Count Acc. 0.7730
+alpha=1.00, onset=0.90, offset=0.70,     | FA: 0.0048 | MISS: 0.7947 | CER: 0.0398 | DER: 0.8393 | Spk. Count Acc. 0.7730
